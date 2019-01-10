@@ -1,4 +1,4 @@
-# uBlacklist
+# iBlacklist
 Blocks specific sites from appearing in Google and Duck Duck Go search results
 
 ## Description
@@ -12,6 +12,6 @@ You can add rules on search result pages, or on sites to be blocked by clicking 
 [Jaruso](https://github.com/Jaruso)
 
 ## License
-uBlacklist is licensed under [MIT License](LICENSE.txt).
+iBlacklist is licensed under [MIT License](LICENSE.txt).
 
 Originally forked from [uBlacklist](https://github.com/iorate/uBlacklist).
