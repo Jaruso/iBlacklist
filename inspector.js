@@ -160,7 +160,7 @@ const ENTRY_INFO = [
     display:      'default'
   },
   {
-    id:           'Search.Advertisement.Duck',
+    id:           'Search.'+$.ad+'.Duck',
     target:       'div#ads > div',
     targetDepth:  0,
     pageLink:     '> div > h2 > a.result__a',

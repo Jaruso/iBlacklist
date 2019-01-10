@@ -1,6 +1,7 @@
 class iBlackList {
   constructor() {
     this.blockRules = null;
+    this.blockedAdCount = 0;
     this.blockedEntryCount = 0;
     this.queuedEntries = [];
 
@@ -274,6 +275,11 @@ class iBlackList {
     if (this.blockRules.some(rule => rule.compiled && rule.compiled.test(entry.dataset.ubPageUrl))) {
       entry.classList.add('ubBlockedEntry');
       ++this.blockedEntryCount;
+    }
+    if (entry.id.includes($.ad)) {
+      entry.classList.add('ubBlockedEntry');
+      ++this.blockedEntryCount;
+      ++this.blockedAddCount;
     }
   }
 
