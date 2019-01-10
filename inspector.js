@@ -129,6 +129,26 @@ const ENTRY_INFO = [
     actionClass:  'ubNewsSearchAction',
     display:      'default'
   },
+  {
+    id:           'Search.Duck',
+    target:       'div#links > div',
+    targetDepth:  0,
+    pageLink:     '> div > h2 > a.result__a',
+    pageLinkType: 'default',
+    actionParent: '> div > h2',
+    actionClass:  'ubDefaultAction',
+    display:      'default'
+  },
+  {
+    id:           'Search.TopStoryDuck',
+    target:       'div.module--news__items > div',
+    targetDepth:  0,
+    pageLink:     '> div > a',
+    pageLinkType: 'default',
+    actionParent: ' > div',
+    actionClass:  'duckNewsAction',
+    display:      'default'
+  }
 ];
 
 const inspectEntry = elem => {

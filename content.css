@@ -33,6 +33,13 @@ div#iur > div.kno-ibrg > div > div.img-brk > div.birrg > div.rg_el.ivg-i > a.bia
   padding: 0 16px;
 }
 
+.duckNewsAction {
+  display: block;
+  font-size: 14px;
+  margin: -10px 0 10px 0;
+  padding: 10px 16px;
+}
+
 .ubVideoAction {
   display: block;
   font-size: 13px;
