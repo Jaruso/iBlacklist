@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "uBlacklist"
+    "message": "iBlackList"
   },
   "extensionDescription": {
     "message": "指定したサイトが Google の検索結果で表示されないようにします"
@@ -42,7 +42,7 @@
     "message": "許可されていません"
   },
   "enableSyncDescription": {
-    "message": "同期を有効にすると、Google ドライブにファイル 'uBlacklist.txt' が作成され、ローカルのリストと同期されます。<br>意図しないリストの上書きに備えて、同期を有効にする前にリストのバックアップを取ることをおすすめします。"
+    "message": "同期を有効にすると、Google ドライブにファイル 'iBlackList.txt' が作成され、ローカルのリストと同期されます。<br>意図しないリストの上書きに備えて、同期を有効にする前にリストのバックアップを取ることをおすすめします。"
   },
   "enableSync": {
     "message": "同期を有効にする"
@@ -51,7 +51,7 @@
     "message": "OK"
   },
   "nSitesBlocked": {
-    "message": "uBlacklist により $COUNT$ サイトがブロックされました",
+    "message": "iBlackList により $COUNT$ サイトがブロックされました",
     "placeholders": {
       "count": {
         "content": "$1"

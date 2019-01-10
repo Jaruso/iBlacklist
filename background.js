@@ -115,7 +115,7 @@ class SyncService {
       method: 'GET',
       params: {
         corpora: 'user',
-        q: `name = 'uBlacklist.txt' and 'root' in parents and trashed = false`,
+        q: `name = 'iBlackList.txt' and 'root' in parents and trashed = false`,
         spaces: 'drive',
         fields: 'files(id, modifiedTime)'
       }
@@ -157,7 +157,7 @@ class SyncService {
       path: '/drive/v3/files',
       method: 'POST',
       body: {
-        name: 'uBlacklist.txt'
+        name: 'iBlackList.txt'
       }
     });
     return response.result;

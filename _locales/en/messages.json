@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "uBlacklist"
+    "message": "iBlackList"
   },
   "extensionDescription": {
     "message": "Blocks specific sites from appearing in Google search results"
@@ -42,7 +42,7 @@
     "message": "Not permitted"
   },
   "enableSyncDescription": {
-    "message": "If you enable sync, a file named 'uBlacklist.txt' will be created on your Google Drive and synchronized with your local blacklist.<br>In case your local blacklist is unintendedly overwritten, it is recommended that you back up it before you enable sync."
+    "message": "If you enable sync, a file named 'iBlackList.txt' will be created on your Google Drive and synchronized with your local blacklist.<br>In case your local blacklist is unintendedly overwritten, it is recommended that you back up it before you enable sync."
   },
   "enableSync": {
     "message": "Enable sync"
@@ -51,7 +51,7 @@
     "message": "OK"
   },
   "nSitesBlocked": {
-    "message": "uBlacklist has blocked $COUNT$ site(s)",
+    "message": "iBlackList has blocked $COUNT$ site(s)",
     "placeholders": {
       "count": {
         "content": "$1"

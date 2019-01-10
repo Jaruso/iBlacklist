@@ -1,4 +1,4 @@
-class UBlacklist {
+class iBlackList {
   constructor() {
     this.blockRules = null;
     this.blockedEntryCount = 0;
@@ -300,4 +300,4 @@ class UBlacklist {
   }
 }
 
-new UBlacklist();
+new iBlackList();
