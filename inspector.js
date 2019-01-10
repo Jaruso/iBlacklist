@@ -140,13 +140,33 @@ const ENTRY_INFO = [
     display:      'default'
   },
   {
+    id:           'Search.TopStoryWithImage.Duck',
+    target:       'div.module--news__items > div.has-image',
+    targetDepth:  0,
+    pageLink:     '> div.module--news__body > a',
+    pageLinkType: 'default',
+    actionParent: '> div.module--news__body',
+    actionClass:  'duckNewsAction',
+    display:      'default'
+  },
+  {
     id:           'Search.TopStoryDuck',
     target:       'div.module--news__items > div',
     targetDepth:  0,
     pageLink:     '> div > a',
     pageLinkType: 'default',
-    actionParent: ' > div',
+    actionParent: '> div',
     actionClass:  'duckNewsAction',
+    display:      'default'
+  },
+  {
+    id:           'Search.Advertisement.Duck',
+    target:       'div#ads > div',
+    targetDepth:  0,
+    pageLink:     '> div > h2 > a.result__a',
+    pageLinkType: 'default',
+    actionParent: '> div > h2',
+    actionClass:  'ubDefaultAction',
     display:      'default'
   }
 ];
